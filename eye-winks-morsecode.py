@@ -4,6 +4,7 @@ import numpy as np
 import imutils
 import dlib
 import cv2
+import gtts
 
 # Thresholds and consecutive frame length for triggering the mouse action.
 EYE_AR_THRESH = 0.19 # Eye aspect ratio threshold for blink detection.
@@ -203,6 +204,8 @@ while True:
 
     # If the `q` key was pressed, break from the loop
     if key == ord("q"):
+        t1 = gtts.gTTS(CONVERTED_MSG)
+        t1.save("welcome.mp3")
         break
 
 # Do a bit of cleanup
