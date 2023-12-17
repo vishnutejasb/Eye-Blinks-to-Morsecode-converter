@@ -1,5 +1,5 @@
 # Eye-Blinks-to-Morsecode-converter
-Its a opencv, computer vision based project to decode our eye blinks as dahses and dots and display the text and convert it to audio as well(currently working on that part ........)
+Its a opencv, computer vision based project to decode our eye blinks as dahses and dots and display the text and convert it to audio as well.
 ## Getting Started
  * The file hierchy should look like this in your local machine/computer <br>
  * All files in 1 directory <br>
